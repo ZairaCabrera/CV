@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS | PEDIR PRESUPUESTO</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de Menú -->
+        <section class="interior">
+            <a href="index.html" class="logo"><img src="imagenes/logo_imagen_500.png" alt="Logo ATS"></a>
+            <a href="index.html" class="logo_letra"><img src="imagenes/logo_letra600.png" alt="Logo ATS"></a>
+            <nav class="barra">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+    
+                    <li class="submenu">
+                        <a href="conocenos.html">Conócenos</a>
+                        <ul class="hijos">
+                            <li><a href="conocenos.html#nuestro_enfoque">Enfoque</a></li>
+                            <li><a href="conocenos.html#trayectoria">Trayectoria</a></li>
+                            <li><a href="conocenos.html#equipo">Equipo</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="submenu">
+                        <a href="servicios.html">Servicios</a>
+    
+                        <ul class="hijos">
+                            <li><a href="#servicios_casas">Casas</a></li>
+                            <li><a href="#servicios_interior">Diseño interior</a></li>
+                            <li><a href="#servicios_edificios">Hoteles</a></li>
+                            <li><a href="#servicios_sostenibles">Modelos sostenibles</a></li>
+                        </ul>
+    
+                    </li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="presupuesto.html">Pedir presupuesto</a></li>
+                    <li class="amarillo"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>    
+        </section>
+        
+    </header>
+
+    <section class="formulario" >
+
+        <form action="/submit_form" method="post">
+            <label for="name">Nombre y Apellidos</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone"><br>
+        
+            <label for="searchingFor">¿Qué estás buscando?</label>
+            <select id="searchingFor" name="searchingFor">
+                <option value="" selected disabled hidden>Diseño de interiores</option>
+                <option value="">Diseño de interiores</option> 
+                <option value="">Diseño de casas</option> 
+                <option value="">Diseño de hoteles</option> 
+                <option value="">Diseño de casas sostenibles</option> 
+                
+            </select> 
+        <br><br>
+        
+        <label for ="message">Más detalles que nos quiera proporcionar para el proyecto a presupuestar</label> 
+        <textarea id ="message"name ="message"></textarea> 
+        <br>
+        <label class="checkbox-label" for="check1">
+            <input type="checkbox" id="check1" name="check1">
+            Este sitio web utiliza cookies para mejorar la experiencia de usuario, personalizar contenido y anuncios, y<br>
+            analizar el tráfico del sitio. Al continuar navegando en este sitio, aceptas nuestro uso de cookies. Para más<br>
+            información sobre cómo usamos las cookies y cómo puedes gestionar tus preferencias, consulta nuestra <br>
+            <a href="privacidad.html">Política de privacidad.</a>
+        </label><br>
+        
+
+        <label class="checkbox-label" for="check2">
+            <input type="checkbox" id="check2" name="check2">
+            Respetamos su privacidad y nos comprometemos a proteger sus datos personales. Esta política de<br>
+            privacidad explica cómo recopilamos, usamos y protegemos su información personal cuando utiliza<br>
+            nuestro sitio web y servicios. Cubre detalles como qué datos recopilamos, por qué los necesitamos, cómo<br> 
+            los usamos, y sus derechos en relación con su información personal.<br> <a href="privacidad.html">Visite nuestra Política de privacidad
+            completa.</a>
+        </label> <br>
+
+        
+        <input type ="submit"value ="Enviar">
+        </form>
+    </section>
+
+    <section class="prehead">
+    
+        <h1>Presupuesto</h1>
+        <p>Completa este formulario y le prepararemos un presupuesto<br>
+        a la mayor brevedad posible</p>
+        <img src="imagenes/planos.png" width="681" height="529" alt="planos">
+
+    
+    </section>
+
+    
+
+
+    <footer class="footer-presupuesto">
+        <ul class="enlaces">
+            <li class="cabecera">ENLACES LEGALES</li>
+            <li><a href="privacidad.html"> Política de privacidad</a></li>
+            <li><a href="coockies.html">Política de cookies</a> </li>
+            <li class="pie"><a href="notalegal.html">Nota Legal</a> </li>
+        </ul>
+    
+        <ul class="mapa">
+            <li class="cabecera">MAPA DEL SITIO</li>
+            <li><a href="conocenos.html">Conócenos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="presupuesto.html">Pedir presupuesto</a></li>
+            <li><a href="servicios.html#servicios_interior">Diseño de interiores</a></li>
+            <li><a href="servicios.html#servicios_casas">Diseño de casas</a></li>
+            <li><a href="servicios.html#servicios_edificios">Diseño de hoteles</a></li>
+            <li><a href="servicios.html#servicios_sostenibles">Casas sostenibles</a></li>
+        </ul>
+    
+        <ul class="datos_contacto">
+            <li class="cabecera">DATOS DE CONTACTO</li>
+            <li>Plaza del ayuntamiento 7 pta 8</li>
+            <li>Valencia 46002</li>
+            <li>info@arqsostenible.com</li>
+            <li>960001675</li>
+        </ul>
+    
+        <ul class="redes_imagenes">
+            <li><img class="redes_foto" src="imagenes/instagram.png" alt="Imagen instagram"></li>
+            <li><img class="redes_foto" src="imagenes/facebook.png" alt="Imagen facebook"></li>
+            <li><img class="redes_foto" src="imagenes/whatssap.png" alt="Imagen whatssap"></li>
+            <li><img class="redes_foto" src="imagenes/email.png" alt="Imagen email"></li>
+        </ul>
+    
+    
+        <ul class="redes_texto">
+            <li><p>AS_company</p></li>
+            <li><p>AS_company</p></li>
+            <li><P>698 52 36 52</P></li>
+            <li><p>contacto@arpsostenible.com</p></li>
+        </ul>
+    
+    </footer>
+        
+    </body>
+    </html>
